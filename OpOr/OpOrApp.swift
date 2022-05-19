@@ -11,7 +11,7 @@ import SwiftUI
 struct OpOrApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OpOrView()
         }
     }
 }

@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82B1FB72820B24E001715F2 /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B1FB62820B24E001715F2 /* AddOrderView.swift */; };
+		D8844C6328227A6D00ACA47C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8844C6228227A6D00ACA47C /* Order.swift */; };
+		D8844C6B2822A7F600ACA47C /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8844C6A2822A7F600ACA47C /* OrderView.swift */; };
+		D8844C6F282B927700ACA47C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8844C6E282B927700ACA47C /* CartView.swift */; };
+		D8844C71282BB0A500ACA47C /* Bahan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8844C70282BB0A500ACA47C /* Bahan.swift */; };
+		D8BC5342282DE9E400346680 /* Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC5341282DE9E400346680 /* Total.swift */; };
+		D8D2766728335E2100EFBBEA /* ResepNastarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2766628335E2100EFBBEA /* ResepNastarView.swift */; };
+		D8D27669283367E600EFBBEA /* ResepKastengelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D27668283367E600EFBBEA /* ResepKastengelView.swift */; };
 		D8DD0BAF281A36F50054B169 /* OpOrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD0BAE281A36F50054B169 /* OpOrApp.swift */; };
-		D8DD0BB1281A36F50054B169 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD0BB0281A36F50054B169 /* ContentView.swift */; };
+		D8DD0BB1281A36F50054B169 /* OpOrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD0BB0281A36F50054B169 /* OpOrView.swift */; };
 		D8DD0BB3281A36F80054B169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD0BB2281A36F80054B169 /* Assets.xcassets */; };
 		D8DD0BB6281A36F80054B169 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD0BB5281A36F80054B169 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D82B1FB62820B24E001715F2 /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
+		D8844C6228227A6D00ACA47C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D8844C6A2822A7F600ACA47C /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		D8844C6E282B927700ACA47C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		D8844C70282BB0A500ACA47C /* Bahan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bahan.swift; sourceTree = "<group>"; };
+		D8BC5341282DE9E400346680 /* Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total.swift; sourceTree = "<group>"; };
+		D8D2766628335E2100EFBBEA /* ResepNastarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepNastarView.swift; sourceTree = "<group>"; };
+		D8D27668283367E600EFBBEA /* ResepKastengelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepKastengelView.swift; sourceTree = "<group>"; };
 		D8DD0BAB281A36F50054B169 /* OpOr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpOr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DD0BAE281A36F50054B169 /* OpOrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpOrApp.swift; sourceTree = "<group>"; };
-		D8DD0BB0281A36F50054B169 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8DD0BB0281A36F50054B169 /* OpOrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpOrView.swift; sourceTree = "<group>"; };
 		D8DD0BB2281A36F80054B169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8DD0BB5281A36F80054B169 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				D8DD0BAE281A36F50054B169 /* OpOrApp.swift */,
-				D8DD0BB0281A36F50054B169 /* ContentView.swift */,
+				D8DD0BB0281A36F50054B169 /* OpOrView.swift */,
+				D8844C6E282B927700ACA47C /* CartView.swift */,
+				D8844C6A2822A7F600ACA47C /* OrderView.swift */,
+				D82B1FB62820B24E001715F2 /* AddOrderView.swift */,
+				D8D2766628335E2100EFBBEA /* ResepNastarView.swift */,
+				D8D27668283367E600EFBBEA /* ResepKastengelView.swift */,
+				D8844C6228227A6D00ACA47C /* Order.swift */,
+				D8844C70282BB0A500ACA47C /* Bahan.swift */,
+				D8BC5341282DE9E400346680 /* Total.swift */,
 				D8DD0BB2281A36F80054B169 /* Assets.xcassets */,
 				D8DD0BB4281A36F80054B169 /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8DD0BB1281A36F50054B169 /* ContentView.swift in Sources */,
+				D8844C6F282B927700ACA47C /* CartView.swift in Sources */,
+				D8DD0BB1281A36F50054B169 /* OpOrView.swift in Sources */,
+				D8BC5342282DE9E400346680 /* Total.swift in Sources */,
+				D8844C71282BB0A500ACA47C /* Bahan.swift in Sources */,
+				D82B1FB72820B24E001715F2 /* AddOrderView.swift in Sources */,
+				D8844C6B2822A7F600ACA47C /* OrderView.swift in Sources */,
+				D8844C6328227A6D00ACA47C /* Order.swift in Sources */,
+				D8D2766728335E2100EFBBEA /* ResepNastarView.swift in Sources */,
 				D8DD0BAF281A36F50054B169 /* OpOrApp.swift in Sources */,
+				D8D27669283367E600EFBBEA /* ResepKastengelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +296,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpOr/Preview Content\"";
+				DEVELOPMENT_TEAM = C58DRUF2Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,6 +315,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyntyadita.OpOr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,9 +327,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpOr/Preview Content\"";
+				DEVELOPMENT_TEAM = C58DRUF2Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,6 +346,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyntyadita.OpOr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
